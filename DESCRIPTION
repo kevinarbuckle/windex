@@ -1,0 +1,11 @@
+Package: windex
+Type: Package
+Title: windex: Analysing convergent evolution using the Wheatsheaf
+        index
+Version: 2.0
+Date: 2020-10-15
+Author: Kevin Arbuckle and Amanda Minter
+Maintainer: Kevin Arbuckle <kevin.arbuckle@swansea.ac.uk>
+Description: Analysing convergent evolution using the Wheatsheaf index (and some other random but perhaps useful functions).
+License: GPL-2
+Depends: geiger (>= 2.0), ape, phangorn, scatterplot3d, utils, R (>= 3.0.0)

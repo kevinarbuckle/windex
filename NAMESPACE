@@ -1,0 +1,4 @@
+exportPattern("^[^\\.]")
+import(geiger,ape,phangorn,utils,scatterplot3d)
+importFrom("graphics", "abline", "hist", "legend", "points")
+importFrom("stats", "dist", "quantile", "sd", "var")
