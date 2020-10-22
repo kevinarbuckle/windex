@@ -19,11 +19,6 @@ A numerical value to be back-transformed.
   Returns the back-transformed estimate.
 }
 
-\references{
-}
 \author{
 Kevin Arbuckle
-}
-
-\examples{
 }

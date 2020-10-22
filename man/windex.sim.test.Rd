@@ -58,6 +58,7 @@ Kevin Arbuckle
 \dontrun{
 data(sample.data)
 data(sample.tree)
-windex.sim.test(sample.data,sample.tree,traits=c("bm1","bm2"),focal=sample.data[,2],Nsims=1000,plot=TRUE,col="light grey")
+windex.sim.test(sample.data,sample.tree,traits=c("bm1","bm2"),focal=sample.data[,2],Nsims=1000,
+plot=TRUE,col="light grey")
 }
 }

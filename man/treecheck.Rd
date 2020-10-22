@@ -19,11 +19,6 @@ Set of phylogenetic trees of class 'multiPhylo' or 'phylo' containing branch len
   Either confirms that all trees are binary and ultrametric or prints warnings stating which trees do not meet those criteria.
 }
 
-\references{
-}
 \author{
 Kevin Arbuckle
-}
-
-\examples{
 }

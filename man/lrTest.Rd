@@ -26,11 +26,6 @@ A numerical value giving the degrees of freedom for the test.
   \item{P}{P-value from likelihood ratio test}
 }
 
-\references{
-}
 \author{
 Kevin Arbuckle
-}
-
-\examples{
 }

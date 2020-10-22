@@ -19,11 +19,6 @@ Numerical vector.
   Returns the standard error of the values in the vector.
 }
 
-\references{
-}
 \author{
 Kevin Arbuckle
-}
-
-\examples{
 }

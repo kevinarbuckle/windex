@@ -1,10 +1,10 @@
 \name{modSelTab}
 \alias{modSelTab}
 \title{
-Model selection table based on informational theoretical measures.
+Model selection table based on information theoretical measures.
 }
 \description{
-Creates a model selection table based on either AIC or BIC for a range of model types. The function was originally intended for GLM style models but should work for any model which the base R functions logLik() and AIC() or BIC() can be applied to.
+Creates a model selection table based on either AIC or BIC for a range of model types. The function was originally intended for GLM style models but should work for any model to which the base R functions logLik() and AIC() or BIC() can be applied.
 }
 \usage{
 modSelTab(...,type="AIC")
@@ -22,8 +22,6 @@ Type of information theoretical measure you want to use (AIC or BIC are allowed)
 Model selection table with rownames corresponding to input model names and columns for K (number of parameters), logLik (log-likelihood), AIC (or BIC), deltaAIC (or deltaBIC, the difference between each model and the best model), Weight (Akaike weights, aka model probabilities), and Evidence ratio (the amount of evidence for the best model relative to each model such that, for instance, 4 would mean that model has 4x less evidence supporting it than the best model).
 }
 
-\references{
-}
 \author{
 Kevin Arbuckle
 }

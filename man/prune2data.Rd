@@ -7,7 +7,7 @@ Prunes a phylogenetic tree to match a vector (e.g. of species names in a dataset
 Takes a phylo object and vector of names to be matched to tip labels and returns a pruned phylogeny containing only tip labels that match those in the vector.
 }
 \usage{
-windex(tree, species)
+prune2data(tree, species)
 }
 \arguments{
   \item{tree}{
@@ -22,14 +22,10 @@ Vector of names to be matched against tip labels of the tree.
 Returns a phylogenetic tree of the class 'phylo' containing only tips whose labels match the input vector (species)
 }
 
-\references{
-}
 \author{
 Kevin Arbuckle
 }
 
-\seealso{
-}
 \examples{
 data(sample.data)
 data(sample.tree)

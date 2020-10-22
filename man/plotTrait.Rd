@@ -24,8 +24,6 @@ Arguments to be passed to plot (or scatterplot3d for 3 traits) to customise outp
 }
 }
 
-\references{
-}
 \author{
 Kevin Arbuckle and Amanda Minter
 }
