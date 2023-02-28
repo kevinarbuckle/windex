@@ -1,1 +1,0 @@
-backLog<-function(x){1/(1+(exp(-x)))}
