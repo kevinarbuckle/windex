@@ -1,4 +1,0 @@
-exportPattern("^[^\\.]")
-import(geiger,ape,phangorn,utils,scatterplot3d)
-importFrom("graphics", "abline", "hist", "legend", "points", "arrows")
-importFrom("stats", "dist", "quantile", "sd", "var", "AIC", "BIC", "logLik", "na.omit", "pchisq", "shapiro.test")
